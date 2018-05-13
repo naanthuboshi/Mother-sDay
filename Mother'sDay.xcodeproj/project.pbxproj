@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F122682520A47B34008DE1EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F122682420A47B34008DE1EC /* AppDelegate.swift */; };
+		F122682720A47B34008DE1EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F122682620A47B34008DE1EC /* ViewController.swift */; };
+		F122682A20A47B34008DE1EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F122682820A47B34008DE1EC /* Main.storyboard */; };
+		F122682C20A47B36008DE1EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F122682B20A47B36008DE1EC /* Assets.xcassets */; };
+		F122682F20A47B36008DE1EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F122682D20A47B36008DE1EC /* LaunchScreen.storyboard */; };
+		F122683A20A47B37008DE1EC /* Mother_sDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F122683920A47B37008DE1EC /* Mother_sDayTests.swift */; };
+		F122684520A47B37008DE1EC /* Mother_sDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F122684420A47B37008DE1EC /* Mother_sDayUITests.swift */; };
+		F122685320A48080008DE1EC /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F122685220A48080008DE1EC /* ResultViewController.swift */; };
+		F181EB7020A802F70076C5F4 /* IMG_1086.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F181EB6F20A802F70076C5F4 /* IMG_1086.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F122683620A47B37008DE1EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F122681920A47B34008DE1EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F122682020A47B34008DE1EC;
+			remoteInfo = "Mother'sDay";
+		};
+		F122684120A47B37008DE1EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F122681920A47B34008DE1EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F122682020A47B34008DE1EC;
+			remoteInfo = "Mother'sDay";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F122682120A47B34008DE1EC /* Mother'sDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mother'sDay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F122682420A47B34008DE1EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F122682620A47B34008DE1EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F122682920A47B34008DE1EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F122682B20A47B36008DE1EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F122682E20A47B36008DE1EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F122683020A47B37008DE1EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F122683520A47B37008DE1EC /* Mother'sDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mother'sDayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F122683920A47B37008DE1EC /* Mother_sDayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mother_sDayTests.swift; sourceTree = "<group>"; };
+		F122683B20A47B37008DE1EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F122684020A47B37008DE1EC /* Mother'sDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mother'sDayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F122684420A47B37008DE1EC /* Mother_sDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mother_sDayUITests.swift; sourceTree = "<group>"; };
+		F122684620A47B37008DE1EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F122685220A48080008DE1EC /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		F181EB6F20A802F70076C5F4 /* IMG_1086.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1086.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F122681E20A47B34008DE1EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F122683220A47B37008DE1EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F122683D20A47B37008DE1EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F122681820A47B34008DE1EC = {
+			isa = PBXGroup;
+			children = (
+				F122682320A47B34008DE1EC /* Mother'sDay */,
+				F122683820A47B37008DE1EC /* Mother'sDayTests */,
+				F122684320A47B37008DE1EC /* Mother'sDayUITests */,
+				F122682220A47B34008DE1EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F122682220A47B34008DE1EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F122682120A47B34008DE1EC /* Mother'sDay.app */,
+				F122683520A47B37008DE1EC /* Mother'sDayTests.xctest */,
+				F122684020A47B37008DE1EC /* Mother'sDayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F122682320A47B34008DE1EC /* Mother'sDay */ = {
+			isa = PBXGroup;
+			children = (
+				F122682420A47B34008DE1EC /* AppDelegate.swift */,
+				F122682620A47B34008DE1EC /* ViewController.swift */,
+				F122682820A47B34008DE1EC /* Main.storyboard */,
+				F122682B20A47B36008DE1EC /* Assets.xcassets */,
+				F122682D20A47B36008DE1EC /* LaunchScreen.storyboard */,
+				F122683020A47B37008DE1EC /* Info.plist */,
+				F122685220A48080008DE1EC /* ResultViewController.swift */,
+				F181EB6F20A802F70076C5F4 /* IMG_1086.jpg */,
+			);
+			path = "Mother'sDay";
+			sourceTree = "<group>";
+		};
+		F122683820A47B37008DE1EC /* Mother'sDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				F122683920A47B37008DE1EC /* Mother_sDayTests.swift */,
+				F122683B20A47B37008DE1EC /* Info.plist */,
+			);
+			path = "Mother'sDayTests";
+			sourceTree = "<group>";
+		};
+		F122684320A47B37008DE1EC /* Mother'sDayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F122684420A47B37008DE1EC /* Mother_sDayUITests.swift */,
+				F122684620A47B37008DE1EC /* Info.plist */,
+			);
+			path = "Mother'sDayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F122682020A47B34008DE1EC /* Mother'sDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F122684920A47B37008DE1EC /* Build configuration list for PBXNativeTarget "Mother'sDay" */;
+			buildPhases = (
+				F122681D20A47B34008DE1EC /* Sources */,
+				F122681E20A47B34008DE1EC /* Frameworks */,
+				F122681F20A47B34008DE1EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mother'sDay";
+			productName = "Mother'sDay";
+			productReference = F122682120A47B34008DE1EC /* Mother'sDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F122683420A47B37008DE1EC /* Mother'sDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F122684C20A47B37008DE1EC /* Build configuration list for PBXNativeTarget "Mother'sDayTests" */;
+			buildPhases = (
+				F122683120A47B37008DE1EC /* Sources */,
+				F122683220A47B37008DE1EC /* Frameworks */,
+				F122683320A47B37008DE1EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F122683720A47B37008DE1EC /* PBXTargetDependency */,
+			);
+			name = "Mother'sDayTests";
+			productName = "Mother'sDayTests";
+			productReference = F122683520A47B37008DE1EC /* Mother'sDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F122683F20A47B37008DE1EC /* Mother'sDayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F122684F20A47B37008DE1EC /* Build configuration list for PBXNativeTarget "Mother'sDayUITests" */;
+			buildPhases = (
+				F122683C20A47B37008DE1EC /* Sources */,
+				F122683D20A47B37008DE1EC /* Frameworks */,
+				F122683E20A47B37008DE1EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F122684220A47B37008DE1EC /* PBXTargetDependency */,
+			);
+			name = "Mother'sDayUITests";
+			productName = "Mother'sDayUITests";
+			productReference = F122684020A47B37008DE1EC /* Mother'sDayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F122681920A47B34008DE1EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Mac Owner";
+				TargetAttributes = {
+					F122682020A47B34008DE1EC = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					F122683420A47B37008DE1EC = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F122682020A47B34008DE1EC;
+					};
+					F122683F20A47B37008DE1EC = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F122682020A47B34008DE1EC;
+					};
+				};
+			};
+			buildConfigurationList = F122681C20A47B34008DE1EC /* Build configuration list for PBXProject "Mother'sDay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F122681820A47B34008DE1EC;
+			productRefGroup = F122682220A47B34008DE1EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F122682020A47B34008DE1EC /* Mother'sDay */,
+				F122683420A47B37008DE1EC /* Mother'sDayTests */,
+				F122683F20A47B37008DE1EC /* Mother'sDayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F122681F20A47B34008DE1EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F122682F20A47B36008DE1EC /* LaunchScreen.storyboard in Resources */,
+				F122682C20A47B36008DE1EC /* Assets.xcassets in Resources */,
+				F181EB7020A802F70076C5F4 /* IMG_1086.jpg in Resources */,
+				F122682A20A47B34008DE1EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F122683320A47B37008DE1EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F122683E20A47B37008DE1EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F122681D20A47B34008DE1EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F122682720A47B34008DE1EC /* ViewController.swift in Sources */,
+				F122682520A47B34008DE1EC /* AppDelegate.swift in Sources */,
+				F122685320A48080008DE1EC /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F122683120A47B37008DE1EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F122683A20A47B37008DE1EC /* Mother_sDayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F122683C20A47B37008DE1EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F122684520A47B37008DE1EC /* Mother_sDayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F122683720A47B37008DE1EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F122682020A47B34008DE1EC /* Mother'sDay */;
+			targetProxy = F122683620A47B37008DE1EC /* PBXContainerItemProxy */;
+		};
+		F122684220A47B37008DE1EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F122682020A47B34008DE1EC /* Mother'sDay */;
+			targetProxy = F122684120A47B37008DE1EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F122682820A47B34008DE1EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F122682920A47B34008DE1EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F122682D20A47B36008DE1EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F122682E20A47B36008DE1EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F122684720A47B37008DE1EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F122684820A47B37008DE1EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F122684A20A47B37008DE1EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mother'sDay/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.nana.yamaguchi.Mother-sDay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F122684B20A47B37008DE1EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mother'sDay/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.nana.yamaguchi.Mother-sDay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F122684D20A47B37008DE1EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mother'sDayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.nana.yamaguchi.Mother-sDayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mother'sDay.app/Mother'sDay";
+			};
+			name = Debug;
+		};
+		F122684E20A47B37008DE1EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mother'sDayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.nana.yamaguchi.Mother-sDayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mother'sDay.app/Mother'sDay";
+			};
+			name = Release;
+		};
+		F122685020A47B37008DE1EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mother'sDayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.nana.yamaguchi.Mother-sDayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mother'sDay";
+			};
+			name = Debug;
+		};
+		F122685120A47B37008DE1EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mother'sDayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.nana.yamaguchi.Mother-sDayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mother'sDay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F122681C20A47B34008DE1EC /* Build configuration list for PBXProject "Mother'sDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F122684720A47B37008DE1EC /* Debug */,
+				F122684820A47B37008DE1EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F122684920A47B37008DE1EC /* Build configuration list for PBXNativeTarget "Mother'sDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F122684A20A47B37008DE1EC /* Debug */,
+				F122684B20A47B37008DE1EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F122684C20A47B37008DE1EC /* Build configuration list for PBXNativeTarget "Mother'sDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F122684D20A47B37008DE1EC /* Debug */,
+				F122684E20A47B37008DE1EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F122684F20A47B37008DE1EC /* Build configuration list for PBXNativeTarget "Mother'sDayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F122685020A47B37008DE1EC /* Debug */,
+				F122685120A47B37008DE1EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F122681920A47B34008DE1EC /* Project object */;
+}
