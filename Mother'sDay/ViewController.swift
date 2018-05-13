@@ -22,9 +22,12 @@ class ViewController: UIViewController {
  
        
     }
+    @IBOutlet weak var imageview: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-      
+        let image = UIImage(named: "IMG_0970")
+        imageview.image = image
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
 

@@ -16,6 +16,7 @@
 		F122684520A47B37008DE1EC /* Mother_sDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F122684420A47B37008DE1EC /* Mother_sDayUITests.swift */; };
 		F122685320A48080008DE1EC /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F122685220A48080008DE1EC /* ResultViewController.swift */; };
 		F181EB7020A802F70076C5F4 /* IMG_1086.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F181EB6F20A802F70076C5F4 /* IMG_1086.jpg */; };
+		F1F316D420A8067A00E932ED /* IMG_0970.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F316D320A8067A00E932ED /* IMG_0970.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F122684620A47B37008DE1EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F122685220A48080008DE1EC /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		F181EB6F20A802F70076C5F4 /* IMG_1086.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1086.jpg; sourceTree = "<group>"; };
+		F1F316D320A8067A00E932ED /* IMG_0970.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0970.jpg; path = ../../../../Desktop/IMG_0970.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				F122682420A47B34008DE1EC /* AppDelegate.swift */,
 				F122682620A47B34008DE1EC /* ViewController.swift */,
+				F1F316D320A8067A00E932ED /* IMG_0970.jpg */,
 				F122682820A47B34008DE1EC /* Main.storyboard */,
 				F122682B20A47B36008DE1EC /* Assets.xcassets */,
 				F122682D20A47B36008DE1EC /* LaunchScreen.storyboard */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F122682F20A47B36008DE1EC /* LaunchScreen.storyboard in Resources */,
+				F1F316D420A8067A00E932ED /* IMG_0970.jpg in Resources */,
 				F122682C20A47B36008DE1EC /* Assets.xcassets in Resources */,
 				F181EB7020A802F70076C5F4 /* IMG_1086.jpg in Resources */,
 				F122682A20A47B34008DE1EC /* Main.storyboard in Resources */,

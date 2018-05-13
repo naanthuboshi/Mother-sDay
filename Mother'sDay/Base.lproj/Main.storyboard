@@ -44,6 +44,10 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H3Q-SA-4jX">
+                                        <rect key="frame" x="39" y="136" width="300" height="348"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
@@ -54,6 +58,7 @@
                     <connections>
                         <outlet property="TextField" destination="tsh-V2-3gX" id="fZt-8Q-3t3"/>
                         <outlet property="YourName" destination="dps-IT-emO" id="I2y-df-SsI"/>
+                        <outlet property="imageview" destination="H3Q-SA-4jX" id="pMk-d1-yc7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
